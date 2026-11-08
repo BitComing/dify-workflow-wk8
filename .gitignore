@@ -1,0 +1,36 @@
+# ---- 操作系统 ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ---- 编辑器 / IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- Office 临时文件 ----
+~$*
+
+# ---- 临时与备份 ----
+*.tmp
+*.temp
+*.bak
+*.orig
+*.log
+*.crdownload
+*.part
+
+# ---- 环境变量与密钥（防误提交）----
+.env
+.env.*
+*.pem
+*.key
+
+# ---- 依赖目录（如后续引入）----
+node_modules/
+.venv/
+__pycache__/
